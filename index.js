@@ -94,7 +94,7 @@ app.post('/api/poruke', (req, res) => {
 })
 
 const nepoznataRuta = (req, res) => {
-    res.status(404).send({ error: 'nepostojeca ruta' })
+    res.status(404).send({ error: 'nepostojeca ruta!' })
   }
   
   app.use(nepoznataRuta)
